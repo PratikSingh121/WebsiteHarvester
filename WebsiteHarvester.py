@@ -129,7 +129,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Website Scraper")
 
-    parser.add_argument("-l", "--url", type=str, help="URL to start scraping")
+    parser.add_argument("-u", "--url", type=str, help="URL to start scraping")
     parser.add_argument("-d", "--depth", type=int, help="Maximum depth to crawl (an integer) [Default:2]")
     parser.add_argument("-f", "--file", type=str, help="Path to a file with domains")
 
