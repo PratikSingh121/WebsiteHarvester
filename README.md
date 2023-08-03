@@ -1,6 +1,6 @@
 # WebsiteHarvester: The Web Bounty Hunter
 
-![WebsiteHarvester Logo](WebsiteHarvester_logo.png)
+![WebsiteHarvester Logo](websiteharvester.png)
 
 ## Description
 
