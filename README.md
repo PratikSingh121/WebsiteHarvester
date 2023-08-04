@@ -1,4 +1,4 @@
-# WebsiteHarvester: The Web Bounty Hunter
+# WebsiteHarvester: The Website Data Harvester
 
 ![WebsiteHarvester Logo](websiteharvester.png)
 
