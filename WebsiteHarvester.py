@@ -75,7 +75,7 @@ def scrape_emails(soup):
 def scrape_social_media_links(soup):
     try:
         social_media_links = re.findall(r'https?://(?:www\.)?(?:instagram\.com|instagr\.am)/[-\w.]+', soup.prettify())
-        social_media_links += re.findall(r'https?://(?:www\.)?(?:facebook\.com|twitter\.com|linkedin\.com)/[-\w.]+', soup.prettify())
+        social_media_links += re.findall(r'https?://(?:www\.)?(?:facebook\.com|twitter\.com|linkedin\.com|github\.com)/[-\w.]+', soup.prettify())
         return social_media_links
 
     except Exception as e:
